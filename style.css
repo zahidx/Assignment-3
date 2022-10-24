@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+/* navbar section started----------------- */
+.logo{
+    height: 80px; 
+    width : 170px;
+    margin-bottom: 12px;
+}
+
+.sec a{
+    color: rgb(34, 112, 214);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 12px 22px;
+    transition: all 0.3s ease;
+}
+
+.sec a:active {
+    transform: translateY(5px);
+  }
+
+/* navbar section ended----------------- */
+
+
+/* carousel slide style started */
+.carousel{
+    margin-top: 400px;
+    background: rgb(80, 150, 160);
+    margin: 0px 20% 0 7.5%;
+    
+    border-radius: 10px;
+    height: auto;
+    width: 85%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+
+.monitor{
+    height: 430px;
+    width: 300px;
+    padding: 40px;
+}
+
+.headphone{
+    height: 440px;
+    width: 300px;
+    padding: 40px;
+}
+
+img .tab{
+    height: 400px;
+    width: 300px;
+    padding: 40px;
+}
+.mac{
+    height: 350px;
+    width: 320px;
+    padding: 40px;
+}
+
+.carousel-item{
+    padding: 3% 0 0 4%; 
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.price{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top:  20px ;
+    font-weight: 900;
+    margin-left: 15px ;
+}
+
+.price-h{
+  margin-left: 41px;
+}
+
+.price-t{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+li{
+    padding-top: 10px ;
+}
+ul{
+    margin-top: 30px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left: 15px ;
+    width: 140px;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 5px;
+}
+.title{
+    margin-bottom: 30px;
+}
+/* carousel slide style ended */
+
+
+/* category box style started------ */
+.categories{
+    margin-bottom: 100px;
+    padding: 0 85px 0 85px;
+
+}
+.col-md-4:hover{
+    transform: scale(1.02);
+    transition: all ease 1s;
+}
+
+
+
+
+.cat1{
+    background: linear-gradient(90deg, rgb(13, 6, 139) 0%, rgba(9,9,121,1) 35%, rgb(7, 96, 113) 100%);
+}
+
+.cat2{
+    background: linear-gradient(90deg, rgb(1, 147, 147) 0%, rgb(4, 146, 174) 35%, rgb(4, 146, 174) 100%);
+}
+
+.cat3{
+    background: linear-gradient(90deg, rgb(211, 30, 127) 0%, rgb(172, 5, 142) 35%, rgb(223, 0, 174) 100%);
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 12px;
+    margin: 5px;
+    height: 90%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+
+}
+
+.cat1 img{
+    
+    height: 100px;
+    width: 100px;
+}
+
+.cat2 img{
+    
+    height: 85px;
+    width: 85px;
+}
+
+.cat3 img{
+    
+    height: 100px;
+    width: 100px;
+}
+
+.categories h1{
+    color: white;
+}
+
+.cate{
+    margin-top: 70px;
+    padding-left: 5.50%;
+    margin-bottom: 20px;
+
+    font-weight: 600;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.cate h1{
+    font-size: 3em;
+}
+
+/* category box style ended------ */
+
+
+/* card box style started------ */
+
+.main-card-container h1{
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.card-body button{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px rgb(7, 65, 7);
+    background-color: rgb(80, 137, 99);
+    
+}
+
+.btn2:hover{
+    background-color: rgb(40, 164, 81);
+}
+.btn2:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+
+
+
+
+
+.card-container{
+    padding: 0 12% 0 12%;
+    height: auto;
+    text-align: center;
+}
+
+.card-image1 img{
+    height: 30%;
+    width: 50%;
+}
+
+.card-image2 img{
+    height: 48%;
+    width: 40%;
+    padding-top: 10px;
+}
+
+.card-image3 img{
+    height: 60%;
+    width: 55%;
+    padding-top: 25px;
+}
+
+.card-style h5{
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Robota', sans-serif;
+}
+
+.card3{
+    margin-top: 12px;
+}
+
+.card-style p{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Robota', sans-serif;
+}
+
+.card-c{
+    background-color: rgb(242, 234, 243) ;
+}
+
+.card-c:hover{
+    transform: scale(1.02);
+    transition: all ease 1s;
+}
+
+.watch-head{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 12.5%;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main-card-container{
+    background-color: rgb(245, 248, 247);
+}
+
+/* backpack section style */
+.card-image4 img{
+    height: 30%;
+    width: 50%;
+}
+
+.card-image5 img{
+    height: 59%;
+    width: 50%;
+}
+
+.card-image6 img{
+    height:  50%;
+    width: 39%;
+    padding-top: 15px;
+}
+
+.marg{
+    padding-top: 10px;
+}
+
+/* shoes section style */
+.card-image7 img{
+    height: 30%;
+    width: 50%;
+}
+
+.card-image8 img{
+    height: 79%;
+    width: 70%;
+}
+
+.card-image9 img{
+    height:  90%;
+    width: 70%;
+    padding-top: 15px;
+    margin-bottom: 7px;
+}
+
+/* card box style ended------ */
+
+
+/* footer style started------ */
+
+.footer{
+    background-color: rgb(245, 248, 247);
+    height: auto;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.last-item{
+    /* padding: 2px 45px 2px 45px; */
+    background-color: rgb(244, 245, 251);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.last-item h3{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.last-item p{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px;
+    margin-top: 15px;
+}
+.last-item li{
+    padding-top: 5px;
+    font-size: 1.25em;
+    font-weight: 500;
+    
+}
+.mybtn{
+    margin-top: 5px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2px;
+    background-color: rgb(50, 141, 50);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px rgb(17, 12, 155);
+}
+
+.mybtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.last-item a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+input{
+    border-radius: 15px;
+    padding: 10px;
+    width: 50%;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.mar{
+    margin-bottom: 50px;
+}
+
+
+/* footer style ended------ */
+
+
+
+
+
